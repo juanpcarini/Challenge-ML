@@ -1,0 +1,56 @@
+# Groups for testing (only groupOfNames to avoid conflicts)
+dn: cn=admins,ou=groups,dc=meli,dc=com
+objectClass: groupOfNames
+cn: admins
+description: System Administrators
+member: cn=admin,ou=users,dc=meli,dc=com
+
+dn: cn=developers,ou=groups,dc=meli,dc=com
+objectClass: groupOfNames
+cn: developers
+description: Software Developers
+member: cn=john.doe,ou=users,dc=meli,dc=com
+member: cn=jane.smith,ou=users,dc=meli,dc=com
+
+dn: cn=managers,ou=groups,dc=meli,dc=com
+objectClass: groupOfNames
+cn: managers
+description: Management Team
+member: cn=bob.wilson,ou=users,dc=meli,dc=com
+
+dn: cn=hr,ou=groups,dc=meli,dc=com
+objectClass: groupOfNames
+cn: hr
+description: Human Resources
+member: cn=bob.wilson,ou=users,dc=meli,dc=com
+
+dn: cn=finance,ou=groups,dc=meli,dc=com
+objectClass: groupOfNames
+cn: finance
+description: Finance Department
+member: cn=alice.brown,ou=users,dc=meli,dc=com
+
+dn: cn=qa,ou=groups,dc=meli,dc=com
+objectClass: groupOfNames
+cn: qa
+description: Quality Assurance
+member: cn=test.user,ou=users,dc=meli,dc=com
+
+dn: cn=it,ou=groups,dc=meli,dc=com
+objectClass: groupOfNames
+cn: it
+description: IT Department
+member: cn=admin,ou=users,dc=meli,dc=com
+member: cn=john.doe,ou=users,dc=meli,dc=com
+member: cn=jane.smith,ou=users,dc=meli,dc=com
+
+dn: cn=all_users,ou=groups,dc=meli,dc=com
+objectClass: groupOfNames
+cn: all_users
+description: All Company Users
+member: cn=admin,ou=users,dc=meli,dc=com
+member: cn=john.doe,ou=users,dc=meli,dc=com
+member: cn=jane.smith,ou=users,dc=meli,dc=com
+member: cn=bob.wilson,ou=users,dc=meli,dc=com
+member: cn=alice.brown,ou=users,dc=meli,dc=com
+member: cn=test.user,ou=users,dc=meli,dc=com 

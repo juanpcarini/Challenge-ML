@@ -1,0 +1,134 @@
+# Test users (including admin user for agent)
+dn: cn=admin,ou=users,dc=meli,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: admin
+sn: Administrator
+givenName: Admin
+displayName: System Administrator
+uid: admin
+uidNumber: 1001
+gidNumber: 1001
+homeDirectory: /home/admin
+loginShell: /bin/bash
+userPassword: itachi
+mail: admin@meli.com
+telephoneNumber: +1-555-0001
+title: System Administrator
+pager: RXN0YXMgbXV5IGNlcmNhIHBlcm8geW8gbm8gc295IHVuYSBrZXku
+
+dn: cn=john.doe,ou=users,dc=meli,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: john.doe
+sn: Doe
+givenName: John
+displayName: John Doe
+uid: john.doe
+uidNumber: 1002
+gidNumber: 1002
+homeDirectory: /home/john.doe
+loginShell: /bin/bash
+userPassword: password123
+mail: john.doe@meli.com
+telephoneNumber: +1-555-0002
+title: Developer
+pager: RXN0YXMgbXV5IGNlcmNhIHBlcm8geW8gbm8gc295IHVuYSBrZXku
+
+dn: cn=jane.smith,ou=users,dc=meli,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: jane.smith
+sn: Smith
+givenName: Jane
+displayName: Jane Smith
+uid: jane.smith
+uidNumber: 1003
+gidNumber: 1003
+homeDirectory: /home/jane.smith
+loginShell: /bin/bash
+userPassword: password123
+mail: jane.smith@meli.com
+telephoneNumber: +1-555-0003
+title: Senior Developer
+pager: RXN0YXMgbXV5IGNlcmNhIHBlcm8geW8gbm8gc295IHVuYSBrZXku
+
+dn: cn=bob.wilson,ou=users,dc=meli,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: bob.wilson
+sn: Wilson
+givenName: Bob
+displayName: Bob Wilson
+uid: bob.wilson
+uidNumber: 1004
+gidNumber: 1004
+homeDirectory: /home/bob.wilson
+loginShell: /bin/bash
+userPassword: password123
+mail: bob.wilson@meli.com
+telephoneNumber: +1-555-0004
+title: Manager
+pager: RXN0YXMgbXV5IGNlcmNhIHBlcm8geW8gbm8gc295IHVuYSBrZXku
+
+dn: cn=alice.brown,ou=users,dc=meli,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: alice.brown
+sn: Brown
+givenName: Alice
+displayName: Alice Brown
+uid: alice.brown
+uidNumber: 1005
+gidNumber: 1005
+homeDirectory: /home/alice.brown
+loginShell: /bin/bash
+userPassword: password123
+mail: alice.brown@meli.com
+telephoneNumber: +1-555-0005
+title: Analyst
+pager: QUl6YVN5QWpDdHVGQk9fVEsyR2hnRjV4d0tpcXM5ZnhXc25OLURB
+
+dn: cn=test.user,ou=users,dc=meli,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: test.user
+sn: User
+givenName: Test
+displayName: Test User
+uid: test.user
+uidNumber: 1006
+gidNumber: 1006
+homeDirectory: /home/test.user
+loginShell: /bin/bash
+userPassword: password123
+mail: test.user@meli.com
+telephoneNumber: +1-555-0006
+title: Tester
+pager: RXN0YXMgbXV5IGNlcmNhIHBlcm8geW8gbm8gc295IHVuYSBrZXku
+
+dn: cn=carlos.rodriguez,ou=users,dc=meli,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: carlos.rodriguez
+sn: Rodriguez  
+givenName: Carlos
+displayName: Carlos Rodriguez
+uid: carlos.rodriguez
+uidNumber: 1007
+gidNumber: 1007
+homeDirectory: /home/carlos.rodriguez
+loginShell: /bin/bash
+userPassword: melisec2024
+mail: carlos.rodriguez@meli.com
+telephoneNumber: +1-555-0007
+title: Security Engineer
+departmentNumber: 4201
+pager: RXN0YXMgbXV5IGNlcmNhIHBlcm8geW8gbm8gc295IHVuYSBrZXku

@@ -1,0 +1,24 @@
+[project]
+name = "challenge-meli"
+version = "0.1.0"
+description = "Agente de Seguridad Ofensiva LDAP - ML"
+authors = [
+    {name = "JuanPCarini"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = "^3.9" # Asegúrate de que esta versión de Python sea compatible con la tuya (ej: ^3.10, ^3.11, ^3.12)
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.9" # ¡Importante! Revisa que esto coincida con tu versión de Python
+python-dotenv = "^1.0.0" # Para cargar .env
+ldap3 = "^2.9.1" # Para la conexión LDAP
+langgraph = "^0.1" # Permitir versiones más nuevas de langgraph
+langchain-google-genai = "^1.0" # Usar la integración específica de Google para Gemini
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
