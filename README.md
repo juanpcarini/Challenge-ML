@@ -55,8 +55,8 @@ Este ciclo continuo de análisis, decisión, ejecución y comunicación es lo qu
    Crea un archivo .env en la raíz del proyecto (open\_ldap\_files/) con tus credenciales LDAP y la clave API de Google.  
    \# .env  
    LDAP\_HOST="your\_ldap\_host"  
-   LDAP\_BIND\_DN="cn=admin,dc=example,dc=org"  
-   LDAP\_BIND\_PASSWORD="admin\_password"  
+   LDAP\_BIND\_DN="cn=example,dc=example,dc=org"  
+   LDAP\_BIND\_PASSWORD="example\_password"  
    LDAP\_USERS\_BASE\_DN="ou=users,dc=example,dc=org"  
    LDAP\_GROUPS\_BASE\_DN="ou=groups,dc=example,dc=org"  
    GOOGLE\_API\_KEY="your\_google\_api\_key"
