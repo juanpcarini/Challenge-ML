@@ -39,10 +39,10 @@ Este ciclo continuo de análisis, decisión, ejecución y comunicación es lo qu
 
 ## **Requisitos**
 
-* Python 3.9+  
+* Python 
 * Poetry (para gestión de dependencias)  
 * Acceso a un servidor LDAP (se incluye una configuración básica con Docker Compose para pruebas).  
-* Una clave API de Google Gemini (para el modelo gemini-2.0-flash-lite).
+* Una clave API de Google Gemini 
 
 ## **Configuración y Ejecución**
 
