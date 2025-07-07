@@ -84,7 +84,7 @@ Una vez que el agente esté corriendo, puedes interactuar con él:
 * quien soy  
 * dame el email de test.user  
 * dame los atributos de alice.brown  
-* dame todos los usuarios del equipo it  
+* dame todos los usuarios del equipo managers  
 * dame el número de teléfono de john.doe (Esto debería generar una nueva herramienta si no existe).
 
 
